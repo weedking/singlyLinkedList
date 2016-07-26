@@ -20,7 +20,7 @@ public:
 class Link
 {
 public:
-    Item *head;//链表头指针
+    Item *head;//链表头指针 123
     Link() {head = NULL;}//构造函数
     ~Link() {DeleteAll();}//析构函数
     void Initiate();//初始化
